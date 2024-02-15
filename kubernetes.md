@@ -20,3 +20,5 @@ kubectl get pods
 kubectl get pods -o wide
 # List all pods in namespace.
 kubectl get pods -n <namespace>
+# Get logs of pod in namespace.
+kubectl logs -f <pod-name> -n <namespace>
