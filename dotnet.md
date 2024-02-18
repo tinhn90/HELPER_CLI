@@ -2,3 +2,5 @@
 dotnet new webapi
 # New grpc
 dotnet new grpc
+
+# EF core
