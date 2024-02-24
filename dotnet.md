@@ -7,3 +7,6 @@ dotnet new grpc
 ## Add migration
 dotnet ef --startup-project \<project-folder\> migrations add \<migration-name\> --context \<dbcontext-name\>
 
+## Apply migrate
+dotnet ef database update
+
