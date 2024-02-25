@@ -10,3 +10,5 @@ dotnet ef --startup-project \<project-folder\> migrations add \<migration-name\>
 ## Apply migrate
 dotnet ef database update
 
+## Export script
+dotnet ef migrations script
