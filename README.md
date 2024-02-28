@@ -1,2 +1,2 @@
 # HELPER_CLI
-Some helpful cli
+Some helpful cli dotnet,k8s,redis
