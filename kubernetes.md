@@ -13,12 +13,14 @@ cat ....
   
 >kubectl apply -f notification.yaml -n nexthcm-uat
 
-# List all pods in plain-text output format.
+### List all pods in plain-text output format.
 kubectl get pods
 
-# List all pods in plain-text output format and include additional information (such as node name).
+### List all pods in plain-text output format and include additional information (such as node name).
 kubectl get pods -o wide
-# List all pods in namespace.
+### List all pods in namespace.
 kubectl get pods -n \<namespace\>
-# Get logs of pod in namespace.
+### Get logs of pod in namespace.
 kubectl logs -f \<pod-name\> -n \<namespace\>
+### Get config maps
+kubectl get configmaps - n nexthcm-qa
