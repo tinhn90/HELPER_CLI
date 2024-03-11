@@ -19,4 +19,8 @@ hotKeys:
   shift-2:
     shortCut:    Shift-2
     description: XRay Deployments
-    command:     xray deploy
+
+#    command:     xray deploy
+⬆️ ⬇️	Navigate up or down thru the suggestions
+Ctrl-w, Ctrl-u	Clear out the command
+Tab, Ctrl-f, ➡️	Accept the suggestion
